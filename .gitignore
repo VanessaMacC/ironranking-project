@@ -1,3 +1,11 @@
 .env
 __pycache__
 .DS_Store
+__init__.py
+.ipynb_checkpoints/
+lab.json
+labs_info.ipynb
+mongoDB.ipynb
+pull.json
+pulls_info.ipynb
+.vscode/

@@ -6,23 +6,34 @@ from src.database import db
 from bson.json_util import dumps
 
 
- 
-@app.route('/') 
+@app.route('/')
 def welcome():
     return {
         "status": "OK",
         "message": "Welcome to vanesukiapi"
     }
 
+@app.route("/student/create/", defaults = {"studentname": None})
 @app.route("/student/create/<studentname>")
 def createStudent(studentname):
-    db.pull.insert_one(
-        {"user_id": f"{studentname}"}
-    )
-    return "yaestaría"
+
+    # Set status code to 400 BAD REQUEST
+    if studentname == None:
+        return {
+            "status": "Error HTTP 400 (Bad Request)",
+            "message": "Empty student name, please specify one"
+        }
+
+    
+    """Al introducir el endpoint arriba indicado, la función se encarga de crear un nuevo estudiante dentro de la db."""
+
+    data = {"user_name": studentname}
+    newStudent = db.pull.insert_one(data)
+    return f"User {studentname} has been created into pull data base"
 
 @app.route("/student/all")
-def alllStudent():
+def allStudent():
     res = db.pull.distinct("user_name")
     return dumps(res)
+
 
