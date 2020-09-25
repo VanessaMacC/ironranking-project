@@ -59,7 +59,7 @@ Crear un nuevo alumno en la colección de las pulls:\
 Crear una lista con los nombres de todos los alumnos:\
 **/student/all**
 
-3. *src/controllers/lab_controller.py*
+3. *src/controllers/lab_controller.py*\
 Crear un nuevo lab en la colección de los labs:\
 **/lab/create/labname**
 
@@ -68,7 +68,7 @@ Devuelve un meme random\
 **lab/lab_name/meme**
 
 5. *src/controllers/lab_controller.py*\
-**/lab/name_lab/search**\
+Devuelve los siguientes datos estadísticos
 El numero de PR abiertas\
 El numero de PR cerradas\
 El porcentaje de PR abiertas\
@@ -76,7 +76,9 @@ El porcentaje de PR cerradas\
 La lista de memes únicos\
 El tiempo máximo de correción del lab\
 El tiempo mínimo de correción del lab\
-El promedio de tiempo de correción del lab
+El promedio de tiempo de correción del lab\
+**/lab/name_lab/search**
+
 
 
 
