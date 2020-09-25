@@ -1,7 +1,7 @@
 # ironranking-project
 
 <p align="center">
-  <img src="https://www.ironhack.com/assets/campus-image/madrid.jpg">
+  <img width="300" height="200" img src="https://www.ironhack.com/assets/campus-image/madrid.jpg">
 </p>
 
 **Descripción**: 
@@ -20,7 +20,7 @@ El objetivo de este proyecto es crear una API cuyos endpoints nos ayuden a conse
 Esta semana l@s ironhackers hemos trabajado muy, muy duro para sacar nuestros proyectos adelante, eso sí! ha sido todo un placer hacerlo en equipo y con la ayuda de nuestros instructors. ¿Quieres saber cómo lo hemos hecho? Lets' go! 
 
 <p align="center">
-  <img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/19511188_1882197358685727_2309459635894965835_n.png?_nc_cat=109&_nc_sid=85a577&_nc_ohc=c8K9CyXEBgMAX85ICq1&_nc_ht=scontent-mad1-1.xx&oh=beea34a8e5d888d3eb05ee382b191cf7&oe=5F9169E0">
+  <img width="200" height="200"src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/19511188_1882197358685727_2309459635894965835_n.png?_nc_cat=109&_nc_sid=85a577&_nc_ohc=c8K9CyXEBgMAX85ICq1&_nc_ht=scontent-mad1-1.xx&oh=beea34a8e5d888d3eb05ee382b191cf7&oe=5F9169E0">
 </p>
 
 --------------
