@@ -9,3 +9,4 @@ mongoDB.ipynb
 pull.json
 pulls_info.ipynb
 .vscode/
+tests.py
