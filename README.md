@@ -79,6 +79,8 @@ El tiempo mínimo de correción del lab\
 El promedio de tiempo de correción del lab\
 **/lab/name_lab/search**
 
+Para finalizar, desplegamos nuestra **API** en **Heroku**, a la que se puede acceder en el siguiente link https://ironranking-project.herokuapp.com/
+
 
 
 
